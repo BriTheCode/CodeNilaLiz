@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="viewMore.css" rel="stylesheet" >
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+        crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Office of the President </title>
+</head>
+<body>
+    <!-- NAVBAR AND DROPDOWNS -->
+  <nav class="navbar ">
+    <div class="container-fluid">
+      <div class="container-logo"> 
+        <img src="Photos/cvSU logo.png">
+        <h3> Cavite State University </h3>
+      </div>
+
+      <nav class="navbar ms-auto">
+        <div class="container-fluid">
+          <form class="d-flex" role="search">
+            <input class="form-control form-control-sm me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success btn-sm" type="submit">Search</button>
+          </form>
+          <a class="btn btn-light btn-sm ms-2 d-block d-lg-none " data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            <i class="fa-solid fa-bars"></i>
+          </a>
+        </div>
+      </nav>   
+</nav>    
+<ul class="nav dropdowns">
+      <li class="nav-item dropdown">
+          <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              About <i class="bi bi-chevron-compact-down"></i>
+          </a>
+          <ul class="dropdown-menu" id="about">
+            <li><a class="dropdown-item" href="mission.html">Mandate, Mission, Vision</a></li>
+            <li><a class="dropdown-item" href="history.html">History</a></li>
+            <li><a class="dropdown-item" href="hymn.html">CvSU Hymn</a></li>
+            <li><a class="dropdown-item" href="regents.html">Board of Regents</a></li>
+            <li><a class="dropdown-item" href="contacts.html">Contacts and Directory</a></li>
+        </ul>
+      </li>
+      
+      <li class="nav-item dropdown">
+          <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Administration <i class="bi bi-chevron-compact-down"></i>
+          </a>
+          <ul class="dropdown-menu" id="admin">
+              <li><a class="dropdown-item" href="#">Office of the President</a></li>
+              <li><a class="dropdown-item" href="#">Office of the Vice <br> President for Academic Affairs </a></li>
+              <li><a class="dropdown-item" href="#">Office of the Vice President for <br>Research and Extension</a></li>
+              <li><a class="dropdown-item" href="#">Office of the Vice President for <br>Business amd Resource Generation</a></li>
+              </ul>
+      </li>
+      <li class="nav-item dropdown" id="admission">
+          <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Admission <i class="bi bi-chevron-compact-down"></i>
+          </a>
+          <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">First Semester SY 2024-2025 <br>Application for Admission</a></li>
+              <li><a class="dropdown-item" href="#">Admission Result <br> for SY 2024-2025</a></li>
+          </ul>
+      </li>
+      <li class="nav-item dropdown">
+          <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Campuses <i class="bi bi-chevron-compact-down"></i>
+          </a>
+          <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Bacoor Campus</a></li>
+              <li><a class="dropdown-item" href="#">Carmona Campus</a></li>
+              <li><a class="dropdown-item" href="#">Cavite City Campus</a></li>
+              <li><a class="dropdown-item" href="#">General Trias Campus</a></li>
+              <li><a class="dropdown-item" href="#">Imus Campus</a></li>
+              <li><a class="dropdown-item" href="#">Maragondon Campus</a></li>
+              <li><a class="dropdown-item" href="#">Naic Campus</a></li>
+              <li><a class="dropdown-item" href="#">Rosario Campus</a></li>
+              <li><a class="dropdown-item" href="#">Silang Campus</a></li>
+              <li><a class="dropdown-item" href="#">Tanza Campus</a></li>
+              <li><a class="dropdown-item" href="#">Trece Martires City Campus</a></li>
+          </ul>
+      </li>
+      <li class="nav-item dropdown">
+          <a class="nav-link " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services <i class="bi bi-chevron-compact-down"></i>
+          </a>
+          <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Integrated Library System</a></li>
+              <li><a class="dropdown-item" href="#">Research IS</a></li>
+              <li><a class="dropdown-item" href="#">University Calendar</a></li>
+              <li><a class="dropdown-item" href="#">Job Portal</a></li>
+              <li><a class="dropdown-item" href="#">Downloadable Forms</a></li>
+              <li><a class="dropdown-item" href="#">Procurement</a></li>
+
+          </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link " href="#" role="button" >
+             Programs 
+        </a>
+  </ul>
+</div>
+
+<!-- SIDEBAR MENU -->
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title " id="offcanvasExampleLabel">MENU</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body text-center">
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        About <i class="bi bi-chevron-compact-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Mission, vision</a></li>
+        <li><a class="dropdown-item" href="#">History</a></li>
+        <li><a class="dropdown-item" href="#">CvSU Hymn</a></li>
+        <li><a class="dropdown-item" href="#">Board of Regents</a></li>
+        <li><a class="dropdown-item" href="#">Contacts and Directory</a></li>
+      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        Admission <i class="bi bi-chevron-compact-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Undergraduate</a></li>
+        <li><a class="dropdown-item" href="#">Graduate</a></li>
+        <li><a class="dropdown-item" href="#">International</a></li>
+      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        Administration <i class="bi bi-chevron-compact-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Office of the President</a></li>
+        <li><a class="dropdown-item" href="#">Office of the Vice
+                                        <br> President for Academic Affairs</a></li>
+        <li><a class="dropdown-item" href="#">Departments</a></li>
+      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        Campuses <i class="bi bi-chevron-compact-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Main Campus</a></li>
+        <li><a class="dropdown-item" href="#">Satellite Campuses</a></li>
+        <li><a class="dropdown-item" href="#">Virtual Tour</a></li>
+      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        Services <i class="bi bi-chevron-compact-down"></i>
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Library</a></li>
+        <li><a class="dropdown-item" href="#">Counseling</a></li>
+        <li><a class="dropdown-item" href="#">IT Support</a></li>
+      </ul>
+    </div>
+    <div class="dropdown mt-3">
+      <button class="btn" type="button" data-bs-toggle="dropdown">
+        Programs </i>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- BANNER -->
+
+<div class="banner">
+  <img src="Photos/cvsu.jpg" alt="">
+  <h4 id="title1">Office of the President </h4>
+  <a href="landingPage.html"><h4 id="title2">Home >> Office of the President</h4></a> 
+</div>
+    
+  <!-- CONTAINER FOR LOCAL COLLABORATION AND LINKAGES OFFICE -->
+   <div class="announcements">
+       <h4 id="title">INTERNATIONAL AND LOCAL COLLABORATION AND LINKAGES 
+           OFFICE
+       </h4>
+       <hr>
+       <div class="organizational">
+        <img src="Photos/organizational.png" alt="">
+       </div>
+       <ul>
+        <p>Functions of the International and Local Collaboration and Linkages Office:</p>
+        <li>Act as the clearing house for local and international MOUs and MOAs for endorsement
+           to the Administrative Council and Board of Regents;</li>
+        <li>Identify and discuss issues to the Executive Council that may impact on University’s Internationalization Strategy;</li> 
+        <li>Respond to proposals referred by Colleges/Campuses that relate to local and international linkages;</li>
+        <li>Ensure transfer of information, knowledge and identification of linkages in both local and international to the Academic Council of Colleges and Campuses;</li>
+        <li>Provide forum for the development and exchange of good practices in international and local activities;</li>
+        <li>Serve as liaison officer in relation to local and international research and academic collaboration with other agencies; and</li>
+        <li>Manage all communication/ documents in relation to student and faculty exchanges, study visit and the like between and among academic partners.</li>
+        </ul>
+   </div>
+
+   <div class="gadCenter">
+        <h4 id="gadCenterTitle"> GENDER AND DEVELOPMENT RESOURCE 
+                  CENTER
+        </h4>
+
+        <div class="organizational">
+          <img src="Photos/gadCenter.png" alt="">
+         </div>
+
+    <!-- TABLES -->
+    <div class="table-container">
+  <table>
+    <thead>
+      <tr>
+        <th>Vision</th>
+        <th>Mission</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>A gender-responsive educational institution where stakeholders enjoy equal responsibilities and opportunities.</td>
+        <td>CvSU–GAD Resource Center shall integrate and advocate gender equity and equality principles and perspectives in providing instruction, research, and extension services.</td>
+      </tr>
+      <tr>
+        <td>
+          <strong style="color:#418B27">Goals:</strong><br>
+          The GAD Resource Center shall aim for:<br><br>
+          1.Sustainable and gender responsive instruction, research, community development and involvement;<br>
+          2.Gender equity and equality among the academic community;<br>
+          3.Sustainable partnership and cooperation among stakeholders; and<br>
+          4.Gender responsive governance.<br><br>
+          
+          <strong style="color:#418B27">Services Offered</strong><br>
+           1.Capacity Building<br>
+             Seminar/Workshop/Training on:
+                 <li>Gender Sensitivity</li>
+                 <li>GAD Planning and Budgeting</li>
+                 <li>Gender Analysis and GA Tools</li>
+                 <li>Harmonized GAD Guidelines</li>
+                 <li>Gender Mainstreaming Evaluation Framework</li>
+                 <li>Gender Mainstreaming</li>
+                 <li>Integration of GAD in Instruction</li>
+                 <li>ntegration of GAD in Research</li>
+                 <li>Integration of GAD in Extension</li>
+                 <li>Responsible Parenthood and Family Planning</li>
+                 <li>Others</li><br>
+            2. Livelihood and Entrepreneurship<br>
+            3. Counselling
+        </td>
+        <td>
+          <strong style="color:#418B27">Objectives:</strong><br>
+           1.Strengthen the capacity of faculty members in the integration of GAD and other issues and concerns in the course syllabi and instructional materials;<br>
+           2.Enhance data and information on women’s’ participation in politics, economics, education, peace and order and other activities, and disseminate information to clients;<br>
+           3.Improve level of understanding, awareness, and responsiveness of residents of the community and members of other organizations on GAD issues and concerns and laws on women;<br>
+           4.Establish a repository for gender-related instruction, research, and extension materials and other forms of literature on gender and development;<br>
+           5.Strengthen accessibility of men and women to knowledge management products, resources and networks;<br>
+           6.Establish networks and linkages with other local, national, and international organizations;<br>
+           7.Ensure that the sex-disaggregated data and other vital information obtained from its operations shall be used as basis in decision making processes; and<br>
+           8.Sustain the gender mainstreaming efforts of the University.<br>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+      
+  <div class="directory">
+    <h4 id="directoryTitle"> DIRECTORY
+    </h4>
+     <div id="directorypic">
+      <img src="Photos/directoryPic.png">
+      <div id="directoryText"></div>
+      <h5>Dr. Susan G.Tan</h5>
+      <p>Director<br>
+         Gender and Development Resource Center<br>
+         1st Floor Old College Library Building<br>
+         Telephone No: (046) 443-2546<br>
+         Email address: gad@cvsu.edu.ph </p>
+     </div>
+</div>
+
+        
+</body>
+</html>
